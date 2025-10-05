@@ -22,7 +22,10 @@ run opts =
     _ -> error $ "No registered solution for problem: " <> problemCode opts
 
 problems :: [(String, Problem_)]
-problems = [("231A", Problem_ Problems.P_231A)]
+problems =
+  [ ("231A", Problem_ Problems.P_231A)
+  , ("1982A", Problem_ Problems.P_1982A)
+  ]
 
 data Options = MkOptions
   { problemCode :: !String
