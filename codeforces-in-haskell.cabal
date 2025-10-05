@@ -23,6 +23,7 @@ executable codeforces-in-haskell
       Problems
       Problems.Class
       Problems.P_231A
+      Problems.P_1982A
     -- other-extensions:
     build-depends:    base ^>=4.17.2.1
                     , optparse-applicative
